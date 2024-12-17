@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import path from "path";
+import localFont from "next/font/local";
 
-const workSans = localFont( options: {
+// Directly define options as literals
+const workSans = localFont({
   src: [
     {
       path: './fonts/WorkSans-Black.ttf',
@@ -51,8 +51,8 @@ const workSans = localFont( options: {
       style: 'normal',
     },
   ],
-    variable: '--font-work-sans',
-})
+  variable: '--font-work-sans',
+});
 
 export const metadata: Metadata = {
   title: "BlockLearn👋",
@@ -66,9 +66,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={workSans.variable}
-      >
+      <body className={workSans.variable}>
         {children}
       </body>
     </html>
