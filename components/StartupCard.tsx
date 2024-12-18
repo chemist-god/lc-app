@@ -1,5 +1,6 @@
 import React from 'react'
 import { formatDate } from '@/lib/utils'
+import { EyeIcon } from 'lucide-react'
 
 const StartupCard = ({post}: { post: StartupTypeCard}) => {
   return (
@@ -8,6 +9,10 @@ const StartupCard = ({post}: { post: StartupTypeCard}) => {
             <p className='startup_card_date'>
                 {formatDate(post._createdAt)}
             </p>
+            <div className='flex gap-1.5'>
+                <EyeIcon className='size-6 text-primary' />
+                <span>{post.views}</span>
+            </div>
         </div>
 
     </li>
