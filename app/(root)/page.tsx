@@ -1,6 +1,7 @@
 import SearchForm from "@/components/SearchForm";
 import StartupCard from "@/components/StartupCard";
 
+
 // Placeholder type for StartupCardType
 type StartupCardType = {
   _createdAt: string;
@@ -23,7 +24,7 @@ export default async function Home({
   // Corrected: Renamed 'post' to 'posts' to match usage
   const posts: StartupCardType[] = [
     {
-      _createdAt: "Yesterday",
+      _createdAt: new Date(),
       views: 68,
       author: { _id: 1 },
       _id: 1,
