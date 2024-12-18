@@ -1,3 +1,5 @@
+import SearchForm from "../components/SearchForm";
+
 
 
 export default function Home() {
@@ -12,6 +14,9 @@ export default function Home() {
    <p className="sub-heading !max-w-3xl">
    Ask questions, receive feedback, and test your knowledge through virtual competitions.
    </p>
+    
+   <SearchForm/>
+
     </section>
     </>
   );
