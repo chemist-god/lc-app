@@ -58,6 +58,7 @@ const StartupCard = ({post}: { post: StartupTypeCard}) => {
         </Button>
     </div>
     </li>
+    
   )
 }
 
