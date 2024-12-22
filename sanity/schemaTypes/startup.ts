@@ -1,35 +1,43 @@
-import { UserIcon } from "@sanity/icons";
+
 import { defineField, defineType } from "sanity";
 
 export const author = defineType({
-    name: "author",
-    title: 'Author',
+    name: "startup",
+    title: 'Startup',
     type: "document",
     fields: [
         defineField({
-            name: 'id',
-            type: 'string', // Consider using 'string' or 'slug' for unique identifiers
-        }),
-        defineField({
-            name: 'name',
+            name: 'title',
             type: 'string',
         }),
         defineField({
-            name: 'username', // Corrected typo
-            type: 'string',
+            name: 'slug',
+            type: 'slug', 
+            options: {
+                source: 'title',
+            }
         }),
         defineField({
-            name: 'email',
+            name: 'author',
+            type: 'reference',
+            to: {type: 'author'}
+        }),
+        defineField({
+            name: 'view',
+            type: 'number',
+        }),
+        defineField({
+            name: 'description',
+            type: 'text',
+        }),
+        defineField({
+            name: 'category',
             type: 'string',
-            validation: (Rule) => Rule.email() // Optional: Add email validation
+            validation: (Rule) => Rule.min(minNumber: 1).max(maxNumber: 20).required().error("Please enter a category"), 
         }),
         defineField({
             name: 'image',
             type: 'url',
-        }),
-        defineField({
-            name: 'bio',
-            type: 'text',
         }),
     ],
     preview: {
