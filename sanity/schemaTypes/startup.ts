@@ -1,7 +1,7 @@
 
 import { defineField, defineType } from "sanity";
 
-export const author = defineType({
+export const startup = defineType({
     name: "startup",
     title: 'Startup',
     type: "document",
@@ -38,6 +38,11 @@ export const author = defineType({
         defineField({
             name: 'image',
             type: 'url',
+            validation: (Rule) =>Rule.required(),
+        }),
+        defineField({
+            name: 'pitch',
+            type: 'markdown',
         }),
     ],
     preview: {
