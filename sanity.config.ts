@@ -29,4 +29,3 @@ export default defineConfig({
     markdownSchema()
   ],
 })
-console.log('Sanity Dataset:', process.env.NEXT_PUBLIC_SANITY_DATASET);
