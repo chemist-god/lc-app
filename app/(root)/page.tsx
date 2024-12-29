@@ -58,7 +58,7 @@ export default async function Home({
       author: { _id: 4, name: 'Charlie' },
       _id: 4,
       description: "Empowering Entrepreneurs with Resources",
-      image: "https://placehold.co/400x300",
+      image: "https://plus.unsplash.com/premium_photo-1661764570116-b1b0a2da783c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGJ1c3NpbmVzfGVufDB8fDB8fHww",
       category: "Entrepreneurship",
       title: "Entrepreneur Empowerment",
     },
