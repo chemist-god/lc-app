@@ -72,6 +72,16 @@ export default async function Home({
       category: "Sustainability",
       title: "Green Innovations",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 20,
+      author: { _id: 5, name: 'Diana' },
+      _id: 5,
+      description: "Sustainable Solutions for a Greener Future",
+      image: "https://plus.unsplash.com/premium_photo-1716259490167-1fafe0a2ea80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN1c3RhaW5hbmJpbGl0eXxlbnwwfHwwfHx8MA%3D%3D",
+      category: "Sustainability",
+      title: "Green Innovations",
+    },
   ];
 
   return (
