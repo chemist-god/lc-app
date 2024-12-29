@@ -48,7 +48,7 @@ export default async function Home({
       author: { _id: 3, name: 'Bob' },
       _id: 3,
       description: "Revolutionizing the Tech Industry",
-      image: "https://placehold.co/400x300",
+      image: "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHx0ZWNoJTIwcmV2b2x1dGlvbnxlbnwwfHwwfHx8MA%3D%3D",
       category: "Technology",
       title: "Tech Revolution",
     },
