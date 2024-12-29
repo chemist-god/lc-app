@@ -1,12 +1,11 @@
 import SearchForm from "@/components/SearchForm";
 import StartupCard from "@/components/StartupCard";
 
-
 // Placeholder type for StartupCardType
 type StartupCardType = {
   _createdAt: string;
   views: number;
-  author: { _id: number };
+  author: { _id: number; name: string }; // Added name to author type
   _id: number;
   description: string;
   image: string;
@@ -21,10 +20,10 @@ export default async function Home({
 }) {
   const query = (await searchParams).query;
 
-  // Corrected: Renamed 'post' to 'posts' to match usage
+  // Updated: Added more startup cards to the posts array
   const posts: StartupCardType[] = [
     {
-      _createdAt: new Date(),
+      _createdAt: new Date().toISOString(),
       views: 68,
       author: { _id: 1, name: 'Godfred' },
       _id: 1,
@@ -32,6 +31,46 @@ export default async function Home({
       image: "https://plus.unsplash.com/premium_photo-1661963212517-830bbb7d76fc?q=80&w=1386&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       category: "Technology",
       title: "Web3 Technology",
+    },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 45,
+      author: { _id: 2, name: 'Alice' },
+      _id: 2,
+      description: "Innovative Solutions for Modern Problems",
+      image: "https://placehold.co/400x300",
+      category: "Business",
+      title: "Startup Innovations",
+    },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 30,
+      author: { _id: 3, name: 'Bob' },
+      _id: 3,
+      description: "Revolutionizing the Tech Industry",
+      image: "https://placehold.co/400x300",
+      category: "Technology",
+      title: "Tech Revolution",
+    },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 50,
+      author: { _id: 4, name: 'Charlie' },
+      _id: 4,
+      description: "Empowering Entrepreneurs with Resources",
+      image: "https://placehold.co/400x300",
+      category: "Entrepreneurship",
+      title: "Entrepreneur Empowerment",
+    },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 20,
+      author: { _id: 5, name: 'Diana' },
+      _id: 5,
+      description: "Sustainable Solutions for a Greener Future",
+      image: "https://placehold.co/400x300",
+      category: "Sustainability",
+      title: "Green Innovations",
     },
   ];
 
@@ -54,7 +93,7 @@ export default async function Home({
 
         <ul className="mt-7 card_grid">
           {posts?.length > 0 ? (
-            posts.map((post: StartupCardType, index: number) => (
+            posts.map((post: StartupCardType) => (
               <StartupCard key={post._id} post={post} />
             ))
           ) : (
