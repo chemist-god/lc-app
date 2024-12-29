@@ -38,7 +38,7 @@ export default async function Home({
       author: { _id: 2, name: 'Alice' },
       _id: 2,
       description: "Innovative Solutions for Modern Problems",
-      image: "https://placehold.co/400x300",
+      image: "https://images.unsplash.com/photo-1493612276216-ee3925520721?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aW5ub3ZhdGlvbnxlbnwwfHwwfHx8MA%3D%3D",
       category: "Business",
       title: "Startup Innovations",
     },
