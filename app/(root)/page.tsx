@@ -78,7 +78,7 @@ export default async function Home({
       author: { _id: 5, name: 'Peter' },
       _id: 5,
       description: "Digital marketing ",
-      image: "https://images.unsplash.com/photo-1555077292-22a4489e5897?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1hcmtldGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+      image: "https://images.unsplash.com/photo-1557838923-2985c318be48?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
       category: "Marketing",
       title: "Digital MArketing",
     },
