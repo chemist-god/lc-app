@@ -77,7 +77,7 @@ export default async function Home({
       views: 47,
       author: { _id: 6, name: 'Peter' },
       _id: 6,
-      description: "Introuduction to Digital marketing ",
+      description: "Introduction to Digital marketing ",
       image: "https://th.bing.com/th/id/OIP.xMlvIA1S6H3JCDDfHJrN6QHaE3?w=245&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       category: "Marketing",
       title: "Digital Marketing",
