@@ -48,7 +48,7 @@ export default async function Home({
       author: { _id: 3, name: 'Bob' },
       _id: 3,
       description: "Revolutionizing the Tech Industry",
-      image: "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHx0ZWNoJTIwcmV2b2x1dGlvbnxlbnwwfHwwfHx8MA%3D%3D",
+      image: "https://th.bing.com/th/id/OIP.UAUpzPd2kS-vRjqKomzqHAHaD4?w=298&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       category: "Technology",
       title: "Tech Revolution",
     },
@@ -75,12 +75,12 @@ export default async function Home({
     {
       _createdAt: new Date().toISOString(),
       views: 47,
-      author: { _id: 5, name: 'Peter' },
-      _id: 5,
-      description: "Digital marketing ",
-      image: "https://images.unsplash.com/photo-1557838923-2985c318be48?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
+      author: { _id: 6, name: 'Peter' },
+      _id: 6,
+      description: "Introuduction to Digital marketing ",
+      image: "https://th.bing.com/th/id/OIP.xMlvIA1S6H3JCDDfHJrN6QHaE3?w=245&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       category: "Marketing",
-      title: "Digital MArketing",
+      title: "Digital Marketing",
     },
   ];
 
