@@ -74,7 +74,7 @@ export default async function Home({
     },
     {
       _createdAt: new Date().toISOString(),
-      views: 20,
+      views: 47,
       author: { _id: 5, name: 'Peter' },
       _id: 5,
       description: "Digital marketing ",
