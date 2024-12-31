@@ -82,6 +82,16 @@ export default async function Home({
       category: "Marketing",
       title: "Digital Marketing",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 62,
+      author: { _id: 7, name: 'Nicole' },
+      _id: 7,
+      description: "Fundamentals of Spatial Computing ",
+      image: "https://th.bing.com/th/id/OIP.2f9JbTuE2qGa3dj851R3KAHaD3?pid=ImgDet&w=184&h=96&c=7&dpr=1.3",
+      category: "Computing",
+      title: "Spatial Computing",
+    },
   ];
 
   return (
