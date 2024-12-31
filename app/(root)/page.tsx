@@ -108,7 +108,7 @@ export default async function Home({
       author: { _id: 10, name: 'Daniel Korsina' },
       _id: 10,
       description: "Product Management ",
-      image: "https://th.bing.com/th/id/OIP.2f9JbTuE2qGa3dj851R3KAHaD3?pid=ImgDet&w=184&h=96&c=7&dpr=1.3",
+      image: "https://th.bing.com/th/id/OIP.U3yxCMRJqsc2rTQEtZNy7QHaFB?w=269&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       category: "Managment",
       title: "Product Managment",
     },
