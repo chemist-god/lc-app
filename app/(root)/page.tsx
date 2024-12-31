@@ -104,7 +104,7 @@ export default async function Home({
     },
     {
       _createdAt: new Date().toISOString(),
-      views: 21,
+      views: 51,
       author: { _id: 10, name: 'Daniel Korsina' },
       _id: 10,
       description: "Product Management ",
