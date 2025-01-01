@@ -125,12 +125,22 @@ export default async function Home({
     {
       _createdAt: new Date().toISOString(),
       views: 58,
-      author: { _id: 12, name: 'Alex Bawa' },
+      author: { _id: 12, name: 'Myles More' },
       _id: 12,
       description: "Data Analytics ",
       image: "https://th.bing.com/th/id/OIP.KHlJ-Oc1P2RDnsSH_aC-9QHaD-?w=322&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       category: "Analysis",
       title: "Data Analytics",
+    },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 72,
+      author: { _id: 13, name: 'J.R.D Tata' },
+      _id: 13,
+      description: "Artificial Intelligence",
+      image: "https://th.bing.com/th/id/OIP.wKaosIn_frTKIrm3J9IX4wHaDe?w=300&h=164&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      category: "AI",
+      title: "Artificial Intelligence",
     },
   ];
 
