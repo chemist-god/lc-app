@@ -152,6 +152,16 @@ export default async function Home({
       category: "UI/UX",
       title: "User Interface",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 23,
+      author: { _id: 15, name: 'Williams' },
+      _id: 15,
+      description: "Devops",
+      image: "https://th.bing.com/th/id/OIP.doYHfVKgVncrGIL5jmSOMgHaE8?w=303&h=202&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      category: "Devops",
+      title: "DEVOPS",
+    },
   ];
 
   return (
