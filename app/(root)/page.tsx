@@ -122,6 +122,16 @@ export default async function Home({
       category: "Security",
       title: "Cyber Security",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 58,
+      author: { _id: 12, name: 'Alex Bawa' },
+      _id: 12,
+      description: "Data Analytics ",
+      image: "https://th.bing.com/th/id/OIP.J-Wc06eszd6PyvJVgSXuEwHaE8?w=267&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      category: "Analysis",
+      title: "Data Analytics",
+    },
   ];
 
   return (
