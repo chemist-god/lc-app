@@ -145,10 +145,10 @@ export default async function Home({
     {
       _createdAt: new Date().toISOString(),
       views: 33,
-      author: { _id: 14, name: 'J.R.D Tata' },
+      author: { _id: 14, name: 'Williams' },
       _id: 14,
       description: "UI/UX",
-      image: "https://th.bing.com/th/id/OIP.wKaosIn_frTKIrm3J9IX4wHaDe?w=300&h=164&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      image: "https://th.bing.com/th/id/OIP.doYHfVKgVncrGIL5jmSOMgHaE8?w=303&h=202&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       category: "UI/UX",
       title: "User Interface",
     },
