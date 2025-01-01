@@ -128,7 +128,7 @@ export default async function Home({
       author: { _id: 12, name: 'Alex Bawa' },
       _id: 12,
       description: "Data Analytics ",
-      image: "https://th.bing.com/th/id/OIP.AAgpOBB9ur9VtJVKA0vUuQHaCs?w=285&h=127&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      image: "https://th.bing.com/th/id/OIP.KHlJ-Oc1P2RDnsSH_aC-9QHaD-?w=322&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       category: "Analysis",
       title: "Data Analytics",
     },
