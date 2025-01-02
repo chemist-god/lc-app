@@ -188,7 +188,7 @@ export default async function Home({
       author: { _id: 18, name: 'Seth Anie' },
       _id: 18,
       description: "Basics Of Logictics",
-      image: "https://th.bing.com/th/id/OIP.I85OssNX-hNR3TlCJ94XAwHaEX?pid=ImgDet&w=184&h=108&c=7&dpr=1.3",
+      image: "https://static.javatpoint.com/definition/images/logistics-definition.png",
       category: "Logistics",
       title: "Fundamentals of Logistics",
     },
