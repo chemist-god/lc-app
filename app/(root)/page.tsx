@@ -162,6 +162,16 @@ export default async function Home({
       category: "Devops",
       title: "DEVOPS",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 33,
+      author: { _id: 16, name: 'Shirley' },
+      _id: 1,
+      description: "Digital marketing",
+      image: "https://th.bing.com/th/id/OIP.J9Q3KcsK9oyvJtB-dcrtbwHaEK?w=1280&h=720&rs=1&pid=ImgDetMain",
+      category: "DigitL Marketing",
+      title: "Digital Marketing",
+    },
   ];
 
   return (
