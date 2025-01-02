@@ -172,6 +172,16 @@ export default async function Home({
       category: "Cyber-security",
       title: "Ethical Hacking",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 43,
+      author: { _id: 17, name: 'Abigail Moore' },
+      _id: 17,
+      description: "Public Speaking",
+      image: "https://th.bing.com/th/id/OIP.I85OssNX-hNR3TlCJ94XAwHaEX?pid=ImgDet&w=184&h=108&c=7&dpr=1.3",
+      category: "Communication",
+      title: "Public Speaking",
+    },
   ];
 
   return (
