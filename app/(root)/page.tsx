@@ -158,7 +158,7 @@ export default async function Home({
       author: { _id: 15, name: 'Shirley' },
       _id: 15,
       description: "Devops",
-      image: "https://th.bing.com/th/id/OIP.doYHfVKgVncrGIL5jmSOMgHaE8?w=303&h=202&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      image: "https://th.bing.com/th/id/OIP.J9Q3KcsK9oyvJtB-dcrtbwHaEK?w=1280&h=720&rs=1&pid=ImgDetMain",
       category: "Devops",
       title: "DEVOPS",
     },
