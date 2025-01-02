@@ -182,6 +182,16 @@ export default async function Home({
       category: "Communication",
       title: "Public Speaking",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 57,
+      author: { _id: 18, name: 'Seth Anie' },
+      _id: 18,
+      description: "Basics Of Logictics",
+      image: "https://th.bing.com/th/id/OIP.I85OssNX-hNR3TlCJ94XAwHaEX?pid=ImgDet&w=184&h=108&c=7&dpr=1.3",
+      category: "Logistics",
+      title: "Fundamentals of Logistics",
+    },
   ];
 
   return (
