@@ -217,7 +217,7 @@ export default async function Home({
       views: 71,
       author: { _id: 21, name: 'Eric Maison' },
       _id: 21,
-      description: "A combination of Mechanics and Technology",
+      description: "A combination of mechanical, electrical, computer, and robotics engineering ",
       image: "https://miro.medium.com/v2/resize:fit:828/format:webp/1*n8aDfpAMKY-bCFXLL7-qhg.png",
       category: "Engineering",
       title: "Mechatronics",
