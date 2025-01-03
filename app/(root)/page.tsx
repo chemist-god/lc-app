@@ -202,6 +202,16 @@ export default async function Home({
       category: "Database",
       title: "Learn SQL",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 71,
+      author: { _id: 120, name: 'Yini Ukonu' },
+      _id: 20,
+      description: "Fundamentals Of Database",
+      image: "https://media.daily.dev/image/upload/f_auto,q_auto…posts/9097083458c52543f244bd91a77e43cd?_a=AQAEuiZ",
+      category: "Blockchain",
+      title: "Onchain DJ",
+    },
   ];
 
   return (
