@@ -195,10 +195,10 @@ export default async function Home({
     {
       _createdAt: new Date().toISOString(),
       views: 48,
-      author: { _id: 19, name: 'Seth Anie' },
+      author: { _id: 19, name: 'Marian Ray' },
       _id: 19,
       description: "Fundamentals Of Database",
-      image: "https://static.javatpoint.com/definition/images/logistics-definition.png",
+      image: "https://media.daily.dev/image/upload/f_auto,q_auto/v1/posts/1b52c3e1587f08e7cfb05d40b3063ea7?_a=AQAEuj9",
       category: "Database",
       title: "Learn SQL",
     },
