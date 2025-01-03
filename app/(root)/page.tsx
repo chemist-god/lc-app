@@ -207,7 +207,7 @@ export default async function Home({
       views: 71,
       author: { _id: 20, name: 'Yini Ukonu' },
       _id: 20,
-      description: "Realistic decentralised Interface",
+      description: "Realistic decentralised DJ Kits",
       image: "https://miro.medium.com/v2/resize:fit:828/format:webp/1*n8aDfpAMKY-bCFXLL7-qhg.png",
       category: "Blockchain",
       title: "Onchain DJ",
