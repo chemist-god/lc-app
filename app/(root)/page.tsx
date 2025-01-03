@@ -192,6 +192,16 @@ export default async function Home({
       category: "Logistics",
       title: "Fundamentals of Logistics",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 48,
+      author: { _id: 19, name: 'Seth Anie' },
+      _id: 19,
+      description: "Fundamentals Of Database",
+      image: "https://static.javatpoint.com/definition/images/logistics-definition.png",
+      category: "Database",
+      title: "Learn SQL",
+    },
   ];
 
   return (
