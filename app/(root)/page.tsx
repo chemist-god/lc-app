@@ -219,7 +219,7 @@ export default async function Home({
       _id: 21,
       description: "A combination of Mechanics and Technology",
       image: "https://miro.medium.com/v2/resize:fit:828/format:webp/1*n8aDfpAMKY-bCFXLL7-qhg.png",
-      category: "Mechanical",
+      category: "Engineering",
       title: "Mechatronics",
     },
   ];
