@@ -214,7 +214,7 @@ export default async function Home({
     },
     {
       _createdAt: new Date().toISOString(),
-      views: 71,
+      views: 59,
       author: { _id: 21, name: 'Eric Maison' },
       _id: 21,
       description: "A combination of mechanical, electrical, computer, and robotics engineering ",
