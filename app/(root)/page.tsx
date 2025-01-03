@@ -222,6 +222,16 @@ export default async function Home({
       category: "Engineering",
       title: "Mechatronics",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 59,
+      author: { _id: 22, name: 'Eric Maison' },
+      _id: 22,
+      description: "A subset of Ai that uses algorithms on trained data set ",
+      image: "https://www.managedoutsource.com/wp-content/uploads/2020/08/meeting-covid-19-related-challenges-with-machine-learning-rpa.jpg",
+      category: "Airtificial Intelligence",
+      title: "Machine Learning",
+    },
   ];
 
   return (
