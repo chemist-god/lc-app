@@ -224,7 +224,7 @@ export default async function Home({
     },
     {
       _createdAt: new Date().toISOString(),
-      views: 59,
+      views: 56,
       author: { _id: 22, name: 'Jaison Quist' },
       _id: 22,
       description: "A subset of Ai that uses algorithms on trained data set ",
