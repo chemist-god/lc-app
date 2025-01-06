@@ -258,7 +258,7 @@ export default async function Home({
       author: { _id: 25, name: 'Lamal Yami' },
       _id: 25,
       description: "Introduction to Cryptocurrency",
-      image: "https://th.bing.com/th/id/OIP.ycLdZsLO9fO7UyJuzDn4SwHaEK?rs=1&pid=ImgDetMain",
+      image: "https://th.bing.com/th/id/R.9dd585e18c3760e24bc216fb263e72ce?rik=Fbd9yRjwsohJJA&riu=http%3a%2f%2fitcloudreviews.com%2fwp-content%2fuploads%2f2020%2f07%2fcryptocurrency.jpg&ehk=b7%2bE1Cgg4y%2fQ23D0Cjhrt1GglFnXklnu%2f137HSnsOU4%3d&risl=&pid=ImgRaw&r=0",
       category: "Crypto",
       title: "Basics Of Cryptocurrency",
     },
