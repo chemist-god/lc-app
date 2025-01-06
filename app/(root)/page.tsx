@@ -232,6 +232,16 @@ export default async function Home({
       category: "Airtificial Intelligence",
       title: "Machine Learning",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 66,
+      author: { _id: 23, name: 'Jaison Quist' },
+      _id: 23,
+      description: "Basic SEO",
+      image: "https://www.managedoutsource.com/wp-content/uploads/2020/08/meeting-covid-19-related-challenges-with-machine-learning-rpa.jpg",
+      category: "Development",
+      title: "SEO",
+    },
   ];
 
   return (
