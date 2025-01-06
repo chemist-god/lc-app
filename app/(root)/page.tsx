@@ -252,6 +252,16 @@ export default async function Home({
       category: "Designing",
       title: "Graphic Design",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 33,
+      author: { _id: 25, name: 'Lamal Yami' },
+      _id: 25,
+      description: "Introduction to Cryptocurrency",
+      image: "https://th.bing.com/th/id/OIP.ycLdZsLO9fO7UyJuzDn4SwHaEK?rs=1&pid=ImgDetMain",
+      category: "Crypto",
+      title: "Basics Of Cryptocurrency",
+    },
   ];
 
   return (
