@@ -242,6 +242,16 @@ export default async function Home({
       category: "Development",
       title: "Basic SEO: A Beginner's Guide",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 58,
+      author: { _id: 24, name: 'Yionam Berlin' },
+      _id: 24,
+      description: "Introduction to Graphic Designing",
+      image: "https://th.bing.com/th/id/OIP.kgM70ENBNiQ9bfHaHMYkUgHaEr?rs=1&pid=ImgDetMain",
+      category: "Designing",
+      title: "Graphic Design",
+    },
   ];
 
   return (
