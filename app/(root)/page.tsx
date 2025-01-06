@@ -237,7 +237,7 @@ export default async function Home({
       views: 66,
       author: { _id: 23, name: 'Jaison Quist' },
       _id: 23,
-      description: "Basic SEO",
+      description: "Master SEO Fundamentals and Boost Your Online Visibility!",
       image: "https://www.managedoutsource.com/wp-content/uploads/2020/08/meeting-covid-19-related-challenges-with-machine-learning-rpa.jpg",
       category: "Development",
       title: "SEO",
