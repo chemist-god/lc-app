@@ -248,7 +248,7 @@ export default async function Home({
       author: { _id: 24, name: 'Lawrence Dramani' },
       _id: 24,
       description: "Introduction to Graphic Designing",
-      image: "https://th.bing.com/th/id/OIP.kgM70ENBNiQ9bfHaHMYkUgHaEr?rs=1&pid=ImgDetMain",
+      image: "https://th.bing.com/th/id/OIP.ycLdZsLO9fO7UyJuzDn4SwHaEK?rs=1&pid=ImgDetMain",
       category: "Designing",
       title: "Graphic Design",
     },
