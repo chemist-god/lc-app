@@ -240,7 +240,7 @@ export default async function Home({
       description: "Master SEO Fundamentals and Boost Your Online Visibility!",
       image: "https://www.managedoutsource.com/wp-content/uploads/2020/08/meeting-covid-19-related-challenges-with-machine-learning-rpa.jpg",
       category: "Development",
-      title: "SEO",
+      title: "Basic SEO: A Beginner's Guide",
     },
   ];
 
