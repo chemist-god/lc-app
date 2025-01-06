@@ -238,7 +238,7 @@ export default async function Home({
       author: { _id: 23, name: 'Yionam Berlin' },
       _id: 23,
       description: "Master SEO Fundamentals and Boost Your Online Visibility!",
-      image: "https://www.managedoutsource.com/wp-content/uploads/2020/08/meeting-covid-19-related-challenges-with-machine-learning-rpa.jpg",
+      image: "https://th.bing.com/th/id/OIP.kgM70ENBNiQ9bfHaHMYkUgHaEr?rs=1&pid=ImgDetMain",
       category: "Development",
       title: "Basic SEO: A Beginner's Guide",
     },
