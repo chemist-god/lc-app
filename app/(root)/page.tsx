@@ -245,7 +245,7 @@ export default async function Home({
     {
       _createdAt: new Date().toISOString(),
       views: 58,
-      author: { _id: 24, name: 'Yionam Berlin' },
+      author: { _id: 24, name: 'Lawrence Dramani' },
       _id: 24,
       description: "Introduction to Graphic Designing",
       image: "https://th.bing.com/th/id/OIP.kgM70ENBNiQ9bfHaHMYkUgHaEr?rs=1&pid=ImgDetMain",
