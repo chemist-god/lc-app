@@ -255,7 +255,7 @@ export default async function Home({
     {
       _createdAt: new Date().toISOString(),
       views: 33,
-      author: { _id: 25, name: 'Lamal Yami' },
+      author: { _id: 25, name: 'Kwame Stalwart' },
       _id: 25,
       description: "Introduction to Cryptocurrency",
       image: "https://th.bing.com/th/id/R.9dd585e18c3760e24bc216fb263e72ce?rik=Fbd9yRjwsohJJA&riu=http%3a%2f%2fitcloudreviews.com%2fwp-content%2fuploads%2f2020%2f07%2fcryptocurrency.jpg&ehk=b7%2bE1Cgg4y%2fQ23D0Cjhrt1GglFnXklnu%2f137HSnsOU4%3d&risl=&pid=ImgRaw&r=0",
