@@ -235,7 +235,7 @@ export default async function Home({
     {
       _createdAt: new Date().toISOString(),
       views: 66,
-      author: { _id: 23, name: 'Jaison Quist' },
+      author: { _id: 23, name: 'Yionam Berlin' },
       _id: 23,
       description: "Master SEO Fundamentals and Boost Your Online Visibility!",
       image: "https://www.managedoutsource.com/wp-content/uploads/2020/08/meeting-covid-19-related-challenges-with-machine-learning-rpa.jpg",
