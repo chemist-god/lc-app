@@ -254,7 +254,7 @@ export default async function Home({
     },
     {
       _createdAt: new Date().toISOString(),
-      views: 33,
+      views: 83,
       author: { _id: 25, name: 'Kwame Stalwart' },
       _id: 25,
       description: "Introduction to Cryptocurrency",
