@@ -272,6 +272,16 @@ export default async function Home({
       category: "Development",
       title: "Web Development",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 77,
+      author: { _id: 28, name: 'Issac Omotola' },
+      _id: 28,
+      description: "Information technology",
+      image: "https://th.bing.com/th/id/OIP.j18U6uvAg-ta2XBvDKNQlAHaEK?w=1600&h=900&rs=1&pid=ImgDetMain",
+      category: "IT",
+      title: "Information Technology",
+    },
   ];
 
   return (
