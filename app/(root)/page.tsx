@@ -282,6 +282,16 @@ export default async function Home({
       category: "IT",
       title: "Information Technology",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 77,
+      author: { _id: 28, name: 'Baffour' },
+      _id: 28,
+      description: "Software ",
+      image: "https://th.bing.com/th/id/OIP.U38A49oToQ5mQKgqzcK5UQHaFj?pid=ImgDet&w=184&h=138&c=7&dpr=1.3",
+      category: "Software",
+      title: "Software Enginerring",
+    },
   ];
 
   return (
