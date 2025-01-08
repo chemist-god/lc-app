@@ -266,7 +266,7 @@ export default async function Home({
       _createdAt: new Date().toISOString(),
       views: 98,
       author: { _id: 27, name: 'Morsh Hamedani' },
-      _id: 2,
+      _id: 27,
       description: "Fullsatck Development",
       image: "https://th.bing.com/th/id/OIP.j18U6uvAg-ta2XBvDKNQlAHaEK?w=1600&h=900&rs=1&pid=ImgDetMain",
       category: "Development",
