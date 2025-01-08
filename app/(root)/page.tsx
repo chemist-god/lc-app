@@ -262,6 +262,16 @@ export default async function Home({
       category: "Business",
       title: "Startup Innovations",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 98,
+      author: { _id: 27, name: 'Morsh Hamedani' },
+      _id: 2,
+      description: "Fullsatck Development",
+      image: "https://images.unsplash.com/photo-1493612276216-ee3925520721?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aW5ub3ZhdGlvbnxlbnwwfHwwfHx8MA%3D%3D",
+      category: "Development",
+      title: "Web Development",
+    },
   ];
 
   return (
