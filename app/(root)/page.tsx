@@ -288,7 +288,7 @@ export default async function Home({
       author: { _id: 29, name: 'Baffour' },
       _id: 2,
       description: "Software ",
-      image: "https://th.bing.com/th/id/OIP.U38A49oToQ5mQKgqzcK5UQHaFj?pid=ImgDet&w=184&h=138&c=7&dpr=1.3",
+      image: "https://th.bing.com/th/id/R.9bc497242c0d074f1dae984ccf4525c2?rik=NNYZAFZoDODXMg&pid=ImgRaw&r=0",
       category: "Software",
       title: "Software Enginerring",
     },
