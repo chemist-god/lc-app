@@ -308,7 +308,7 @@ export default async function Home({
       author: { _id: 30, name: 'Lucha' },
       _id: 30,
       description: "Introduction to Data Analysis ",
-      image: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220926110021/How-to-Become-a-Data-Analyst-Complete-Roadmap.png",
+      image: "https://th.bing.com/th/id/OIP.6mpup7TQqNev53H0ROYGjwHaGY?rs=1&pid=ImgDetMain",
       category: "Data Science",
       title: "Data Analysis",
     },
