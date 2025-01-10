@@ -298,9 +298,9 @@ export default async function Home({
       author: { _id: 29, name: 'Pablo' },
       _id: 29,
       description: "Devrel ",
-      image: "https://th.bing.com/th/id/R.9bc497242c0d074f1dae984ccf4525c2?rik=NNYZAFZoDODXMg&pid=ImgRaw&r=0",
+      image: "https://th.bing.com/th/id/OIP.v5cvqhV_x2AKsbI12-EzmQAAAA?rs=1&pid=ImgDetMain",
       category: "Development",
-      title: "DEVREL",
+      title: "DEVREL Engineer",
     },
   ];
 
