@@ -302,6 +302,16 @@ export default async function Home({
       category: "Development",
       title: "DEVREL Engineer",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 43,
+      author: { _id: 29, name: 'Lucha' },
+      _id: 30,
+      description: "Introduction to Data Analysis ",
+      image: "https://th.bing.com/th/id/OIP.v5cvqhV_x2AKsbI12-EzmQAAAA?rs=1&pid=ImgDetMain",
+      category: "Data Science",
+      title: "Data Analysis",
+    },
   ];
 
   return (
