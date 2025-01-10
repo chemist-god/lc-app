@@ -318,7 +318,7 @@ export default async function Home({
       author: { _id: 31, name: 'Syria M' },
       _id: 30,
       description: "Fundamentals to Data Structure & Algorithm",
-      image: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220926110021/How-to-Become-a-Data-Analyst-Complete-Roadmap.png",
+      image: "https://th.bing.com/th/id/R.277f2761953b833bbee25426b6395253?rik=LE7MrTL1pzIEGQ&pid=ImgRaw&r=0",
       category: "DSA",
       title: "Data Structure & Algorithms",
     },
