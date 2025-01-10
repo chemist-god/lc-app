@@ -292,6 +292,16 @@ export default async function Home({
       category: "Software",
       title: "Software Enginerring",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 29,
+      author: { _id: 29, name: 'Pablo' },
+      _id: 29,
+      description: "Devrel ",
+      image: "https://th.bing.com/th/id/R.9bc497242c0d074f1dae984ccf4525c2?rik=NNYZAFZoDODXMg&pid=ImgRaw&r=0",
+      category: "Development",
+      title: "DEVREL",
+    },
   ];
 
   return (
