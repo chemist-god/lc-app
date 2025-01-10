@@ -305,12 +305,22 @@ export default async function Home({
     {
       _createdAt: new Date().toISOString(),
       views: 43,
-      author: { _id: 29, name: 'Lucha' },
+      author: { _id: 30, name: 'Lucha' },
       _id: 30,
       description: "Introduction to Data Analysis ",
       image: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220926110021/How-to-Become-a-Data-Analyst-Complete-Roadmap.png",
       category: "Data Science",
       title: "Data Analysis",
+    },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 47,
+      author: { _id: 31, name: 'Syria M' },
+      _id: 30,
+      description: "Fundamentals to Data Structure & Algorithm",
+      image: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220926110021/How-to-Become-a-Data-Analyst-Complete-Roadmap.png",
+      category: "DSA",
+      title: "Data Structure & Algorithms",
     },
   ];
 
