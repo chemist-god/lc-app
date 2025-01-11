@@ -155,8 +155,8 @@ export default async function Home({
     {
       _createdAt: new Date().toISOString(),
       views: 57,
-      author: { _id: 18, name: 'Seth Anie' },
-      _id: 18,
+      author: { _id: 15, name: 'Seth Anie' },
+      _id: 15,
       description: "Basics Of Logictics",
       image: "https://static.javatpoint.com/definition/images/logistics-definition.png",
       category: "Logistics",
@@ -185,7 +185,7 @@ export default async function Home({
     {
       _createdAt: new Date().toISOString(),
       views: 23,
-      author: { _id: 15, name: 'Shirley' },
+      author: { _id: 18, name: 'Shirley' },
       _id: 15,
       description: "Devops",
       image: "https://th.bing.com/th/id/OIP.J9Q3KcsK9oyvJtB-dcrtbwHaEK?w=1280&h=720&rs=1&pid=ImgDetMain",
@@ -215,8 +215,8 @@ export default async function Home({
     {
       _createdAt: new Date().toISOString(),
       views: 30,
-      author: { _id: 3, name: 'Bob' },
-      _id: 3,
+      author: { _id: 21, name: 'Bob' },
+      _id: 21,
       description: "Revolutionizing the Tech Industry",
       image: "https://th.bing.com/th/id/OIP.UAUpzPd2kS-vRjqKomzqHAHaD4?w=298&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
       category: "Technology",
