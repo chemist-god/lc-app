@@ -35,8 +35,8 @@ export default async function Home({
     {
       _createdAt: new Date().toISOString(),
       views: 83,
-      author: { _id: 25, name: 'Kwame Stalwart' },
-      _id: 25,
+      author: { _id: 2, name: 'Kwame Stalwart' },
+      _id: 2,
       description: "Introduction to Cryptocurrency",
       image: "https://th.bing.com/th/id/R.9dd585e18c3760e24bc216fb263e72ce?rik=Fbd9yRjwsohJJA&riu=http%3a%2f%2fitcloudreviews.com%2fwp-content%2fuploads%2f2020%2f07%2fcryptocurrency.jpg&ehk=b7%2bE1Cgg4y%2fQ23D0Cjhrt1GglFnXklnu%2f137HSnsOU4%3d&risl=&pid=ImgRaw&r=0",
       category: "Crypto",
@@ -45,8 +45,8 @@ export default async function Home({
     {
       _createdAt: new Date().toISOString(),
       views: 59,
-      author: { _id: 21, name: 'Eric Maison' },
-      _id: 21,
+      author: { _id: 3, name: 'Eric Maison' },
+      _id: 3,
       description: "A combination of mechanical, electrical, computer, and robotics engineering ",
       image: "https://th.bing.com/th/id/OIP.OnPwHKsFpVls_-TaiJOX9gHaE8?rs=1&pid=ImgDetMain",
       category: "Engineering",
