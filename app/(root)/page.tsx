@@ -332,6 +332,16 @@ export default async function Home({
       category: "Cyber security",
       title: "Digital Forensics",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 54,
+      author: { _id: 33, name: 'Yao Jim' },
+      _id: 33,
+      description: "Fundamentals to Ethical Hacking",
+      image: "https://th.bing.com/th/id/OIP.2nO4wGOYwo5PV3Y9BzTa_wHaFH?rs=1&pid=ImgDetMain",
+      category: "security",
+      title: "Ethical Hacking",
+    },
   ];
 
   return (
