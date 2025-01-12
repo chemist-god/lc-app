@@ -322,6 +322,16 @@ export default async function Home({
       category: "DSA",
       title: "Data Structure & Algorithms",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 21,
+      author: { _id: 32, name: 'Paul Donald' },
+      _id: 32,
+      description: "Introduction to Digital Forensics",
+      image: "https://th.bing.com/th/id/OIP.2nO4wGOYwo5PV3Y9BzTa_wHaFH?rs=1&pid=ImgDetMain",
+      category: "Cyber security",
+      title: "Digital Forensics",
+    },
   ];
 
   return (
