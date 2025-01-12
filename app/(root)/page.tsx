@@ -338,7 +338,7 @@ export default async function Home({
       author: { _id: 33, name: 'Yao Jim' },
       _id: 33,
       description: "Fundamentals to Ethical Hacking",
-      image: "https://th.bing.com/th/id/OIP.2nO4wGOYwo5PV3Y9BzTa_wHaFH?rs=1&pid=ImgDetMain",
+      image: "https://th.bing.com/th/id/R.e275845e0318e87be11a305bde716fd0?rik=W2ecOu6Gw8Fk3Q&pid=ImgRaw&r=0",
       category: "security",
       title: "Ethical Hacking",
     },
