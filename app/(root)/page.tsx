@@ -342,6 +342,16 @@ export default async function Home({
       category: "security",
       title: "Ethical Hacking",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 68,
+      author: { _id: 34, name: 'Alex' },
+      _id: 34,
+      description: "Basic Beginner Guide to NextJs ",
+      image: "",
+      category: "Development",
+      title: "NextJs 15",
+    },
   ];
 
   return (
