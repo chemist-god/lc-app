@@ -347,7 +347,7 @@ export default async function Home({
       views: 68,
       author: { _id: 34, name: 'Alex' },
       _id: 34,
-      description: "Basic Beginner Guide to NextJs ",
+      description: "Basic Beginners Guide to NextJs ",
       image: "https://th.bing.com/th/id/OIP.sRk3pYhZrXQN8L4BCKcrKwHaEL?rs=1&pid=ImgDetMain",
       category: "Development",
       title: "NextJs 15",
