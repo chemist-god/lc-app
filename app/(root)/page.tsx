@@ -352,6 +352,16 @@ export default async function Home({
       category: "Development",
       title: "NextJs 15",
     },
+    {
+      _createdAt: new Date().toISOString(),
+      views: 42,
+      author: { _id: 35, name: 'Bruce Lee' },
+      _id: 35,
+      description: "Basic CNN ",
+      image: "",
+      category: "ML",
+      title: "CNN",
+    },
   ];
 
   return (
