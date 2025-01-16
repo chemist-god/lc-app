@@ -358,7 +358,7 @@ export default async function Home({
       author: { _id: 35, name: 'Bruce Lee' },
       _id: 35,
       description: "Basic CNN ",
-      image: "",
+      image: "https://cdn.pixabay.com/photo/2024/04/08/19/56/neural-network-8684318_1280.jpg",
       category: "ML",
       title: "CNN",
     },
